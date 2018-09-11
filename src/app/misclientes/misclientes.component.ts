@@ -11,7 +11,7 @@ export class MisclientesComponent implements OnInit {
 clientes: Cliente[] = [];
   cliente: Cliente;
   constructor() {
-    this.cliente = new Cliente('', '');
+    this.cliente = new Cliente( '', '');
 
     this.clientes = [new Cliente('Paco1', 'Liberbank1'),
       new Cliente('Paco2', 'Liberbank2')
