@@ -9,7 +9,7 @@ export class ListadoComponent implements OnInit {
   listado;
   elemento;
   constructor() {
-    this.elemento = [{text: ''}];
+    this.elemento = {text: ''};
   }
 
   ngOnInit() {
@@ -22,7 +22,7 @@ export class ListadoComponent implements OnInit {
 
   addTodo() {
     const miElemento = { text: this.elemento.text};
-    this.elemento = [{text: ''}];
+    this.elemento = {text: ''};
     this.listado.push(miElemento);
   }
 }

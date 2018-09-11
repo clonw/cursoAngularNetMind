@@ -13,7 +13,8 @@ clientes: Cliente[] = [];
   constructor() {
     this.cliente = new Cliente( '', '');
 
-    this.clientes = [new Cliente('Paco1', 'Liberbank1'),
+    this.clientes = [
+      new Cliente('Paco1', 'Liberbank1'),
       new Cliente('Paco2', 'Liberbank2')
       ];
   }
